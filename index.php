@@ -50,6 +50,8 @@
                 <label>YouTube URL：<input type="text" name="url"></label><br>
                 <label><textArea name="comment" rows="4" cols="40"></textArea></label><br>
                 <input type="submit" value="送信">
+                <input type="submit" value="検索" id="search">
+
             </fieldset>
         </div>
     </form>
@@ -57,5 +59,5 @@
 
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </html>
